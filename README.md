@@ -1,6 +1,6 @@
 ## bcy-spider
 
-> 半次元个人图片信息，一键下载存档， 2023.06.13
+> 半次元个人图片信息，一键下载存档， [小白直达](https://github.com/gwj12345/bcy-spider#3无脑操作版) ，2023.06.13  
 
 #### 1、项目背景
 
@@ -54,5 +54,13 @@
 
 
 
+#### 3、无脑操作版
 
+> 打包方案： `Pyinstaller -p C:\Users\gwj11\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages  -F  download_img.py `
+
+1. 将`图片.txt`和`download_img.exe`放在同一个文件夹下
+2. windows下运行`download_img.exe`， 即可自动运行程序。
+3. 下载到的图片保存在C:\img中。
+
+![image-20230614003157221](README.assets/image-20230614003157221.png)
 
